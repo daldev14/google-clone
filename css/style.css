@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header*/
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  /* border: 0.3rem solid red; */
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.nav-list--item {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.nav-list--item a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.7rem;
+}
+
+.nav-list--item a:hover {
+  text-decoration: underline;
+}
+
+.item3 {
+  margin: 0 2.5rem;
+}
+
+.image-user {
+  width: 4.3rem;
+  height: 4.3rem;
+  border-radius: 50%;
+}
+
+.Applications-svg {
+  height: 3.2rem;
+  width: 3.3rem;
+  color: #5f6368;
+  fill: currentColor;
+}
+
+/*Main*/
+
+main {
+  /* border: 1px solid black; */
+}
+
+/*Logo*/
+.main--container-logo {
+  /* border: 1px solid blue; */
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.main--container-logo figure {
+  /* border: 1px solid red; */
+}
+
+/*Buscador*/
+
+.main--container-search {
+  /* border: 1px solid chartreuse; */
+  display: flex;
+  justify-content: center;
+  margin-top: 2.8rem;
+}
+
+.container-search-logo {
+  display: flex;
+  align-items: center;
+  border: 0.1rem solid #dadce0;
+  border-radius: 2.8rem;
+  height: 6rem;
+}
+
+.container-search-logo:hover {
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.container-search-logo svg {
+  margin: 0 1.6rem;
+}
+
+.search-svg {
+  height: 2.5rem;
+  width: 2.5rem;
+  color: #9aa0a6;
+  fill: currentColor;
+}
+.microfono-svg {
+  height: 3.2rem;
+  width: 3.1rem;
+}
+
+.input-search {
+  height: 4rem;
+  width: 65rem;
+  font-size: 2.1rem;
+  border: none;
+  /* border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: 0.1rem solid #dfe1e5; */
+  padding-right: 1.6rem;
+}
+
+.main--container-buttons {
+  /* border: 1px solid blueviolet; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 11.5rem;
+}
+
+.main--container-buttons div {
+  width: 0 auto;
+  height: 4.7rem;
+  padding: 1.4rem 2.3rem;
+  margin-left: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+}
+
+.main--container-buttons div a {
+  text-decoration: none;
+  color: #202124;
+  font-size: 1.8rem;
+}
+
+.main--container-buttons div:hover {
+  border: 0.1rem solid #dadce0;
+}
+
+/*Footer*/
+
+.container--info {
+  margin-top: 33.2rem;
+  background-color: #f2f2f2;
+}
+
+.container--info span {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 2rem;
+}
+
+.container--info-pais {
+  padding: 2rem;
+  border-bottom: 0.1rem solid #dadce0;
+}
+
+.container--info-pais span {
+  margin: 2.2rem;
+}
+
+.container--info-more {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.container--info-more a {
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.container--info-more a:hover {
+  text-decoration: underline;
+}
+
+.about-info a {
+  margin-left: 2.5rem;
+}
+
+.politics-info {
+  margin-right: 3rem;
+}
+
+.politics-info a {
+  padding-right: 2.5rem;
+}
