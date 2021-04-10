@@ -47,7 +47,7 @@ header nav {
 }
 
 .nav--container-list .menu-icon {
-  background-image: url("/img/menu.png");
+  background-image: url("../img/menu.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -108,7 +108,7 @@ main {
 }
 
 .main-input-container .search-icon {
-  background-image: url("/img/search-icon.png");
+  background-image: url("../img/search-icon.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -118,7 +118,7 @@ main {
 }
 
 .main-input-container .micro-icon {
-  background-image: url("/img/micro-icon.png");
+  background-image: url("../img/micro-icon.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
